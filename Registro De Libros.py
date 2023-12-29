@@ -32,9 +32,7 @@ class BDD:
             self.cerrar()
         except:
             print("Error Al Registrar Datos\n")
-            self.cerrar()
-            
-        
+            self.cerrar()     
  
     def ver_Datos(self) -> list:
         """
